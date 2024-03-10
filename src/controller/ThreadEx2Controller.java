@@ -9,8 +9,10 @@ public class ThreadEx2Controller extends Thread {
 //	(uma linha da matriz)
 	
 	private int[] linha;
-	public ThreadEx2Controller(int[] linha) {
+	private int indice;
+	public ThreadEx2Controller(int[] linha, int indice) {
 		this.linha = linha;
+		this.indice = indice;
 	}
 	
 	@Override
@@ -21,6 +23,6 @@ public class ThreadEx2Controller extends Thread {
 				soma += el;
 			}
 			
-			System.out.print(soma);
+			System.out.println("A soma da linha " + indice + " foi: " + soma);
 		}
 }
