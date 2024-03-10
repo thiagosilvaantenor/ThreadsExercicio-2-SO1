@@ -39,11 +39,11 @@ Dica: A main deve gerar uma matriz com números aleatórios, mas a Thread recebe
 ✅ Finalizado ✅
 
 * Preview:
+  * A classe `Main` vai gerar e preencher uma matrisz[3][5] com números aleatorios entre 100 a 1
   * O resultado deve sair no console, mostrando a matriz construida aleatoriamente e em seguida a soma de cada linha
-
-    ![image](https://github.com/thiagosilvaantenor/ThreadsExercicio-2-SO1/assets/99970279/f6865f5b-fd4c-45b3-8706-98e6b843a6d1)
-
-  
+  * Devido ser 3 Threads a ordem de termino de cada uma é aleatoria
+    
+    ![image](https://github.com/thiagosilvaantenor/ThreadsExercicio-2-SO1/assets/99970279/f042a906-b59d-4fd7-929c-d28dc8ae4c76) 
 
 
 ## Tecnologias
