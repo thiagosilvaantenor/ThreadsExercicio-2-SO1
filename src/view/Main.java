@@ -11,7 +11,7 @@ public class Main {
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 5; j++) {
 				matriz[i][j] = (int) (Math.random() * 100) + 1;
-				System.out.println("linha: " + i + ", coluna: " + j + " = " + matriz[i][j]);
+				System.out.println("linha: " + (i + 1) + ", coluna: " + (j + 1) + " = " + matriz[i][j]);
 			}
 		}
 		System.out.println("Fim da matriz\nResultados:");
@@ -20,7 +20,7 @@ public class Main {
 			ThreadEx2Controller ex2 = new ThreadEx2Controller(matriz[i], i);
 			ex2.start();
 		}
-	
+
 	}
 
 }
