@@ -13,6 +13,8 @@ Este é o exercício 2, da lista de exercícios de Threads, da materia de Sistem
 
 Caso queira ver os outros exercícios:
 - [Exercício 1](https://github.com/thiagosilvaantenor/ThreadsExercicio-1-SO1)
+- [Exercício 3](https://github.com/thiagosilvaantenor/ThreadsExercicio-3-SO1)
+- [Exercício 4](https://github.com/thiagosilvaantenor/ThreadsExercicio-4-SO1)
 
 ## Índice
 =================
